@@ -1,0 +1,740 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "79c30dc598ccce1c471411f04cc582e0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "82b137c57a3d2a06daadbb664dcfd433",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d8a54097b19e389eb14eb847892c3605",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bfe208d9c76617e71f7989bbee38ee3d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "274306d63166d703dd7fa22ffa3c3fac",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/yinzixin/Documents/my-app/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5c53a7249e7680ac779898021f9f002a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-contentful": {
+      "resolve": "/Users/yinzixin/Documents/my-app/node_modules/gatsby-source-contentful",
+      "id": "Plugin gatsby-source-contentful",
+      "name": "gatsby-source-contentful",
+      "version": "1.3.54",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "sapq3s4ao6wa",
+        "accessToken": "7231e379b62a76873f77736fbf510a528af7d3260cba2f3ccf79da82c2eec7d7"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreBootstrap",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "1.3.54",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "61a2590619eaa08ec3d609318d84745f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/yinzixin/Documents/my-app",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "69232b2364393b79f6a65a48e5347302",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.277"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^1.3.54"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.4.0"
+          },
+          {
+            "name": "url-loader",
+            "version": "^1.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.13.7"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "73bf949e07b875fc92b950e358739b5f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/yinzixin/Documents/my-app/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/yinzixin/Documents/my-app/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/yinzixin/Documents/my-app/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8766fb3db5f1cdcca44e59e20706f8ef",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Design+Code 3",
+        "description": "Complete courses about the best tools and design systems. Prototype and build apps with React and Swift. 60 hours of video content and resource materials. No coding experience required.",
+        "keywords": "react course, react for designers, ios development, sketch app, swift app course, arkit 2, after effects, create sketch plugin"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-08-03T05:33:05.674Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5e6d9fc66d78d386e5c52f8967ba38ab",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Link": {
+      "id": "Link",
+      "parent": null,
+      "children": [],
+      "name": "Link",
+      "displayField": "title",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "4d6413a6137bc10d2af222f0161c189a",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c1DJVbVVGv2A0mU2QAiCM20": {
+      "title": "Privacy",
+      "url": "/privacy",
+      "id": "c1DJVbVVGv2A0mU2QAiCM20",
+      "contentful_id": "1DJVbVVGv2A0mU2QAiCM20",
+      "createdAt": "2018-08-03T04:28:43.681Z",
+      "updatedAt": "2018-08-03T04:28:43.681Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "a366592857acdf1ed5edf34624086768",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c265oYLmXtusiIki2KCWKgA": {
+      "title": "Contact",
+      "url": "/contact",
+      "id": "c265oYLmXtusiIki2KCWKgA",
+      "contentful_id": "265oYLmXtusiIki2KCWKgA",
+      "createdAt": "2018-08-03T04:28:26.341Z",
+      "updatedAt": "2018-08-03T04:28:26.341Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "aa6ac34ae638f9c56d6416db1098f322",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "xIYUAcIWqGu86GiMWWASk": {
+      "title": "About",
+      "url": "/about",
+      "id": "xIYUAcIWqGu86GiMWWASk",
+      "contentful_id": "xIYUAcIWqGu86GiMWWASk",
+      "createdAt": "2018-08-03T04:28:13.623Z",
+      "updatedAt": "2018-08-03T04:28:13.623Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "def0e1f3fc31cfce8f29187e11f6f144",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c6iDzPZomyW8E6WssU28o2o": {
+      "title": "Courses",
+      "url": "/courses",
+      "id": "c6iDzPZomyW8E6WssU28o2o",
+      "contentful_id": "6iDzPZomyW8E6WssU28o2o",
+      "createdAt": "2018-08-03T04:28:00.880Z",
+      "updatedAt": "2018-08-03T04:28:00.880Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "4d7049ff3826d5c1e786efee9a03f934",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c19Bd3dnYd6E2aIwIYIM02w": {
+      "title": "Home",
+      "url": "/",
+      "id": "c19Bd3dnYd6E2aIwIYIM02w",
+      "contentful_id": "19Bd3dnYd6E2aIwIYIM02w",
+      "createdAt": "2018-08-03T04:27:32.733Z",
+      "updatedAt": "2018-08-03T04:27:32.733Z",
+      "parent": "Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "616f234c3676e07bde3bc82a85692fc4",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/yinzixin/Documents/my-app/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/yinzixin/Documents/my-app/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0bfa6a8a13aded976474aea6d4ad1307",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/yinzixin/Documents/my-app/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/yinzixin/Documents/my-app/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9982f42d31f342927b076604add6f339",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/yinzixin/Documents/my-app/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/yinzixin/Documents/my-app/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0f1b0a877db6800996c8277f2cfffd16",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/yinzixin/Documents/my-app/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/yinzixin/Documents/my-app/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "67e0a159958cc9c53bf5642d63d46cad",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {
+      "gatsby-source-contentful": {
+        "sapq3s4ao6wa-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZAMxcFPHgmw7UcwqZwbMOaGCYWwpJ_B183FXzCuMK4wqNowp89PQfDt8KowqnCrMKpw71iwonDgnPDuWo7MhINw78uw6wdKMK6Xg0XF8KNSgIjVsK3w5c"
+      }
+    },
+    "PLUGINS_HASH": "4805a56fb2cfe2372dfc17f7a50ff99b"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "LAYOUT___index"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "ContentfulLink": [
+        "LAYOUT___index"
+      ]
+    }
+  }
+}
